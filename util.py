@@ -12,8 +12,3 @@ def blocks(file):
         elif block:
             yield ''.join(block).strip()
             block = []
-
-'''f = open(r'test.txt')
-file = f.readlines()
-for b in blocks(file):
-    print(b)'''

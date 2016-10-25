@@ -29,11 +29,6 @@ class Parser:
         self.handler.end('document')
         return False
 
-    '''def output(self):
-        f = open(r'test_output.html','w')
-        f.writelines(''.join(self.unblock).strip())
-        f.close()'''
-
 class BasicTextParser(Parser):
     def __init__(self,handler):
         Parser.__init__(self,handler)
